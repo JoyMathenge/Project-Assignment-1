@@ -1,6 +1,6 @@
 #  FruitServiceEngine
 
-A modular, distributed system that manages fruit inventory and sales using Java Servlets, RMI, and Tomcat. It supports remote operations like adding fruits, updating prices, calculating costs, and printing receipts—all which are triggered via HTTP POST endpoints.
+A distributed system that manages fruit inventory and sales using Java Servlets, RMI, and Tomcat. It supports remote operations like adding fruits, updating prices, calculating costs, and printing receipts—all which are triggered via HTTP POST endpoints.
 
 ##  Features
 
@@ -11,10 +11,7 @@ A modular, distributed system that manages fruit inventory and sales using Java 
 -  Receipt generation and cost computation
 -  Compatible with Postman, curl, and HTML forms
 
----
 
-
----
 
 ##  Technologies Used
 
