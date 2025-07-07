@@ -1,0 +1,47 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         version="3.0">
+  
+  <servlet>
+    <servlet-name>AddFruitServlet</servlet-name>
+    <servlet-class>servlets.AddFruitServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddFruitServlet</servlet-name>
+    <url-pattern>/addFruit</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UpdateFruitServlet</servlet-name>
+    <servlet-class>servlets.UpdateFruitServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateFruitServlet</servlet-name>
+    <url-pattern>/updateFruit</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DeleteFruitServlet</servlet-name>
+    <servlet-class>servlets.DeleteFruitServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteFruitServlet</servlet-name>
+    <url-pattern>/deleteFruit</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CalcCostServlet</servlet-name>
+    <servlet-class>servlets.CalcCostServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CalcCostServlet</servlet-name>
+    <url-pattern>/calcCost</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>PrintReceiptServlet</servlet-name>
+    <servlet-class>servlets.PrintReceiptServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PrintReceiptServlet</servlet-name>
+    <url-pattern>/printReceipt</url-pattern>
+  </servlet-mapping>
+</web-app>
