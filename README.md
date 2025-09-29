@@ -57,5 +57,5 @@ curl -X POST http://localhost:8080/fruitserviceengine/fruit/addFruit \
 ```
 
 ###  5. Access the Web Interface
-Open your browser and navigate to `http://localhost:8080/fruitserviceengine/`           
+Open your browser and navigate to `http://localhost:8080/Project-Assingment-1/`           
 to access the web interface for adding fruits, updating prices, and printing receipts.
